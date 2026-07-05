@@ -1,2 +1,3 @@
-# Tumor-Classification-from-MRI-images-
-Deep learning classification of brain tumors (glioma, meningioma, pituitary, no tumor) from MRI images using MLP, CNN, and transfer learning (VGG16) in PyTorch
+# Brain Tumor Classification from MRI Images
+
+This project applies deep learning to classify brain MRI scans into four categories (glioma, meningioma, pituitary tumor, and no tumor) using PyTorch. It compares four modeling approaches of increasing complexity: a simple multilayer perceptron (MLP), a convolutional neural network (CNN) trained from scratch, a frozen pretrained VGG16, and a fine-tuned VGG16. The notebook covers the full pipeline, including data exploration, augmentation strategies tailored to MRI images, model training, and evaluation using accuracy, F1 score, precision, and recall, with a particular focus on which tumor types are most often confused and why.

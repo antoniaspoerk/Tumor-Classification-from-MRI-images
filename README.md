@@ -21,4 +21,5 @@ This project applies deep learning to classify brain MRI scans into four categor
    DATA_PATH = "./data"
 
 5. **Launch the notebook**
+   ```bash
    Tumor_Classification.ipynb

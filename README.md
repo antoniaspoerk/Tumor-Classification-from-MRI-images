@@ -64,7 +64,7 @@ across all four models.
 ## How to Run Locally
 
 1. Clone the repository and install dependencies
-``` bash
+``` python
 git clone https://github.com/antoniaspoerk/Tumor-Classification-from-MRI-images.git
 cd Tumor-Classification-from-MRI-images
 pip install torch torchvision matplotlib seaborn numpy scikit-learn jupyter
@@ -77,6 +77,6 @@ Drive). Replace that cell with a local path instead:
 DATA_PATH = "./data"
 ```
 4. Launch the notebook:
-``` bash
+``` python
 jupyter notebook Tumor_Classification.ipynb
 ```
